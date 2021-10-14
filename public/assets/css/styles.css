@@ -1,0 +1,9 @@
+
+:root {
+    --bg-color: hsl(120, 80%, 35%);
+}
+
+.card-body .btn-mercado{
+    background: var(--bg-color);
+    color: white;
+}
