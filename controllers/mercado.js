@@ -7,8 +7,7 @@ const producto = new Carrito('carrito');
 
 module.exports = {
     getProductos: ( req = request, res = response, next ) => {
-        res.render('dashboard', {
-            layout: 'dashboard',
+        res.render('main', {
             productos,
             carrito: producto.dataBackup,
         });

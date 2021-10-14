@@ -14,6 +14,7 @@ const postItemCart = async (productoHtml) => {
         method: 'POST'
     });
     console.log(addItem.statusText)
+    location.reload();
 };
 
 const getCart = async () => {

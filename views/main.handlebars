@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,13 +12,8 @@
 <body>
     {{> navbar }}
 
-    <div class="container pt-5">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5">
-            {{#each productos }}
-                {{> productos }}
-            {{/each}}
-        </div>
-    </div>
+    {{> dashboard }}
+
     {{> modal}}
 
     <script src="/bootstrap/js/bootstrap.js"></script>

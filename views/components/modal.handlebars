@@ -2,14 +2,16 @@
   <div class="modal-dialog modal-dialog-scrollable modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Carrito de Compras</h5>
+        <h5 class="modal-title ps-5" id="exampleModalLabel">Carrito de Compras</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5">
-            {{#each carrito }}
-                {{> itemCarrito }}
-            {{/each}}
+        <div class="container py-5">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5">
+              {{#each carrito }}
+                  {{> itemCarrito }}
+              {{/each}}
+          </div>
         </div>
       </div>
     </div>
